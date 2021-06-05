@@ -4,10 +4,9 @@ The following project describes the steps to implement an example of the modleR 
 ## modleR
 modleR is a workflow, designed to automatize some of the common steps when performing ecological niche models. Given the occurrence records and a set of environmental predictors, it prepares the data by cleaning for duplicates, removing occurrences with no environmental information and applying some geographic and environmental filters.
 
-This repository contains informations about the installation and use of modleR.
-
 Source: https://github.com/Model-R/modleR.git
 
+This repository contains informations about the installation and use of modleR.
 
 ## REPRODUCE-ME
 Source: https://github.com/mmondelli/rdt2repr.git
