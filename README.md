@@ -1,6 +1,9 @@
 # Project_MoSD
 The following project describes the steps to implement an example of the modleR workflow. Furthermore the provenance of the execution will be tracked with REPRODUCE-ME.
 
+## Zenodo
+[![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
+
 ## modleR
 modleR is a workflow, designed to automatize some of the common steps when performing ecological niche models. Given the occurrence records and a set of environmental predictors, it prepares the data by cleaning for duplicates, removing occurrences with no environmental information and applying some geographic and environmental filters.
 
