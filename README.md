@@ -2,8 +2,10 @@
 The following project describes the steps to implement an example of the modleR workflow. Furthermore the provenance of the execution will be tracked with REPRODUCE-ME.
 
 ## Zenodo
-Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and any other research related digital artifacts.
+Zenodo, a CERN service, is an open dependable home for the long-tail of science, enabling researchers to share and preserve any research outputs in any size, any format and from any science.
+Source: https://github.com/zenodo/zenodo
 
+The DOI for our Project:
 [![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
 
 ## modleR
