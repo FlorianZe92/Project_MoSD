@@ -5,6 +5,8 @@ rdt2repr::collectprov()
 #after this command, the consol will ask you for the folder, where you want to save the provenance data
 #choose . for the current directory
 library(modleR)
+library(rJava)
+
 str(example_occs)
 
 species <- names(example_occs)
@@ -54,9 +56,6 @@ sdmdata_1sp <- setup_sdmdata(species_name = species[speciesID],
                              sample_proportion = 0.5,
                              cutoff = 0.7)
 
-library(rJava)
-
-#Java musste auf meinem Computer neu installiert werden (Danach ging aber alles)
 sp_maxent <- do_any(species_name = species[speciesID],
                     algorithm = "maxent",
                     predictors = example_vars,
