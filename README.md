@@ -27,9 +27,6 @@ Source: https://github.com/mmondelli/rdt2repr.git
 In the directory [prov_console_2021-06-12T12.47.57CEST](https://github.com/FlorianZe92/Project_MoSD/tree/main/prov_console_2021-06-12T12.47.57CEST)
 are the data of the execution from REPRODUCE-ME for the following example code of modleR: [modleR_with_REPRODUCE-ME](https://github.com/FlorianZe92/Project_MoSD/blob/main/modleR_with_REPRODUCE-ME) 
 
-@Antonio/Daniel: Ein Beispiel zur Provenance müsstet ihr dann hier präsentieren, da bei mir REPRODUCE-ME nicht klappt
-
-
 ## The example data set
 - Ich habe bisher nur das Beispiel ohne "REPRODUCE-ME" hochgeladen, da es bei mir nicht funktioniert
 - Man könnte dann hier mehrere R Programme präsentieren (die variierten Parameter nennen + Bilder zur Verdeutlichung)
