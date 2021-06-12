@@ -8,6 +8,10 @@ Source: https://github.com/zenodo/zenodo
 The DOI for our Project:
 [![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
 
+## Installation
+Before starting with the following project, there need to be installed some software before in R.
+"Install.R" is a guideline for those installations.
+
 ## modleR
 modleR is a workflow, designed to automatize some of the common steps when performing ecological niche models. Given the occurrence records and a set of environmental predictors, it prepares the data by cleaning for duplicates, removing occurrences with no environmental information and applying some geographic and environmental filters.
 
