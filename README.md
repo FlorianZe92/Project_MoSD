@@ -28,45 +28,8 @@ In the directory [prov_console_2021-06-12T12.47.57CEST](https://github.com/Flori
 are the data of the execution from REPRODUCE-ME for the following code: [modleR_with_REPRODUCE-ME](https://github.com/FlorianZe92/Project_MoSD/blob/main/modleR_with_REPRODUCE-ME) 
 
 ## The example data set
-- Ich habe bisher nur das Beispiel ohne "REPRODUCE-ME" hochgeladen, da es bei mir nicht funktioniert
-- Man könnte dann hier mehrere R Programme präsentieren (die variierten Parameter nennen + Bilder zur Verdeutlichung)
-
-
-
-
 
 Abarema langsdorffii       |  Eugenia florida            |  Leandra carassana          |  Ouratea semiserrata
 :-------------------------:|:-------------------------:  |  :-------------------------:|:-------------------------:
 ![Spezies 1](https://user-images.githubusercontent.com/73929864/120915938-ebed4b80-c6a6-11eb-88e6-91884cb7fef6.png) | ![Spezies 2](https://user-images.githubusercontent.com/73929864/120916386-a4b48a00-c6a9-11eb-9b5b-4c29aafe90ea.png) | ![Spezies 3](https://user-images.githubusercontent.com/73929864/120916398-b39b3c80-c6a9-11eb-9694-45c3d8abe627.png) | ![Spezies 4](https://user-images.githubusercontent.com/73929864/120916511-4fc54380-c6aa-11eb-8945-7f99ab5d8e36.png)
 
-
-modleR comes with example data, a list called example_occs with occurrence data for four species, and predictor variables called example_vars.
-![Standardgraph](https://user-images.githubusercontent.com/73929864/120916244-c4977e00-c6a8-11eb-9fb8-378fed9c8695.png)
-
-
-#### Abarema langsdorffii
-![Spezies 1](https://user-images.githubusercontent.com/73929864/120915938-ebed4b80-c6a6-11eb-88e6-91884cb7fef6.png)
-
-#### Abarema langsdorffii with Bootstrap Method
-![Spezies 1 _with_bt](https://user-images.githubusercontent.com/73929864/120916606-cf531280-c6aa-11eb-88b6-89fb3e8e5116.png)
-
-#### Eugenia florida
-![Spezies 2](https://user-images.githubusercontent.com/73929864/120916386-a4b48a00-c6a9-11eb-9b5b-4c29aafe90ea.png)
-
-#### Leandra carassana
-![Spezies 3](https://user-images.githubusercontent.com/73929864/120916398-b39b3c80-c6a9-11eb-9694-45c3d8abe627.png)
-
-#### Ouratea semiserrata
-![Spezies 4](https://user-images.githubusercontent.com/73929864/120916511-4fc54380-c6aa-11eb-8945-7f99ab5d8e36.png)
-
-## Best Practices
-Unser Projekt soll ja die "Best Practices" zum Großteil erfüllen, weshalb ich sie hier für den Überblick nenne.
-
-- Write programs for people, not computers
-- Let the computer do the work
-- Make incremental changes
-- Don't repeat unnecessarily
-- Plan for mistakes
-- Optimize software only after it works correctly
-- Document design and purpose, not mechanics
-- Collaborate
