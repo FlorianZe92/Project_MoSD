@@ -9,8 +9,7 @@ The DOI for our Project:
 [![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
 
 ## Installation
-Before starting with the project, there need to be installed some software before in R.
-"Install.R" is a guideline for those installations.
+You have to install packages in R and you have to install Java and Rtools on your device before you start the project. Go to the [Install.R](https://github.com/FlorianZe92/Project_MoSD/blob/main/Install.R) file to see a guideline for the installation of the R packages.
 
 ## modleR
 modleR is a workflow, designed to automatize some of the common steps when performing ecological niche models. Given the occurrence records and a set of environmental predictors, it prepares the data by cleaning for duplicates, removing occurrences with no environmental information and applying some geographic and environmental filters.
