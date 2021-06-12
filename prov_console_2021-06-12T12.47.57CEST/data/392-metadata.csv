@@ -1,0 +1,2 @@
+"","species_name","algorithms","which_ensemble","which_final","performance_metric","dismo_threshold","consensus_level","scale_models","uncertainty"
+"1","Abarema_langsdorffii","bioclim-brt-glm-maxent-maxnet-rf-svme-svmk","average-best-frequency-weighted_average-median-pca-consensus","raw_mean","pROC","spec_sens",0.5,"yes","yes"

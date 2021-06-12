@@ -1,0 +1,2 @@
+"","species_name","algorithms","scale_models","consensus_level","which_models","mean_th_par","uncertainty"
+"1","Abarema_langsdorffii","bioclim-brt-glm-maxent-maxnet-rf-svme-svmk","yes",0.5,"raw_mean-bin_mean-bin_consensus","spec_sens","yes"

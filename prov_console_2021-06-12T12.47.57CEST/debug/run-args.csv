@@ -1,0 +1,7 @@
+"args.names","args.values","args.types"
+"overwrite","FALSE","logical"
+"annotate.inside.functions","FALSE","logical"
+"first.loop","1","integer"
+"max.loops","0","integer"
+"snapshot.size","0","numeric"
+"save.debug","FALSE","logical"

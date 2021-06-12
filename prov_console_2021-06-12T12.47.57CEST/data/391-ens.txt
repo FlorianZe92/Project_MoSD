@@ -1,0 +1,9 @@
+class      : RasterStack 
+dimensions : 234, 271, 63414, 8  (nrow, ncol, ncell, nlayers)
+resolution : 0.1666667, 0.1666667  (x, y)
+extent     : -74, -28.83333, -33.66667, 5.333333  (xmin, xmax, ymin, ymax)
+crs        : +proj=longlat +datum=WGS84 +no_defs 
+names      :         best,      average, weighted_average,       median,    frequency,    consensus,          pca,  uncertainty 
+min values : 0.0000000000, 0.0569457728,     0.0501268301, 0.0003549278, 0.0000000000, 0.0000000000, 0.0000000000, 0.1749940962 
+max values :    1.0000000,    0.8447379,        0.8349174,    0.9386834,    1.0000000,    1.0000000,    1.0000000,    1.0000000 
+
