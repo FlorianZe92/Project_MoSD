@@ -29,10 +29,11 @@ are the data of the execution from REPRODUCE-ME for the following code: [modleR_
 
 ## The example data set
 You can choose between four different species. To receive the associated machine learning results of the chosen species you have change the code:
-- species_name = species[1]: Abarema langsdorffii
-- species_name = species[2]: Eugenia florida
-- species_name = species[3]: Leandra carassana
-- species_name = species[4]: Ouratea semiserrata
+- speciesID<-1: Abarema langsdorffii
+- speciesID<-2: Eugenia florida
+- speciesID<-3: Leandra carassana
+- speciesID<-4: Ouratea semiserrata
+
 
 In the end you should receive the following results for the chosen species.
 
