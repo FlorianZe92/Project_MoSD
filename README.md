@@ -9,7 +9,7 @@ The DOI for our Project:
 [![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
 
 ## Installation
-Before starting with the following project, there need to be installed some software before in R.
+Before starting with the project, there need to be installed some software before in R.
 "Install.R" is a guideline for those installations.
 
 ## modleR
