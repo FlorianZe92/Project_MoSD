@@ -28,6 +28,14 @@ In the directory [prov_console_2021-06-12T12.47.57CEST](https://github.com/Flori
 are the data of the execution from REPRODUCE-ME for the following code: [modleR_with_REPRODUCE-ME](https://github.com/FlorianZe92/Project_MoSD/blob/main/modleR_with_REPRODUCE-ME) 
 
 ## The example data set
+You can choose between four different species. To receive the associated machine learning results of the chosen species you have change the code:
+-species_name = species[1]: Abarema langsdorffii
+-species_name = species[2]: Eugenia florida
+-species_name = species[3]: Leandra carassana
+-species_name = species[4]: Ouratea semiserrata
+
+In the end you should receive the following results for the chosen species.
+
 
 Abarema langsdorffii       |  Eugenia florida            |  Leandra carassana          |  Ouratea semiserrata
 :-------------------------:|:-------------------------:  |  :-------------------------:|:-------------------------:
