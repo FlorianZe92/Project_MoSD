@@ -1,9 +1,22 @@
-library(modleR)
+#set your working directory to a folder called modleR_test, where you want to save the provenance data
+#setwd(.../modleR_test)
 
+rdt2repr::collectprov()
+#after this command, the consol will ask you for the folder, where you want to save the provenance data
+#choose . for the current directory
+library(modleR)
 str(example_occs)
 
 species <- names(example_occs)
 species
+
+#In speciesID you can choose the species you want to analyze
+#Choose: 
+#1 for Abarema langsdorffii
+#2 Eugenia florida
+#3 Leandra carassana
+#4 Ouratea semiserrata
+speciesID<-1
 
 library(sp)
 par(mfrow = c(2, 2), mar = c(2, 2, 3, 1))
@@ -21,7 +34,7 @@ occs <- example_occs[[1]]
 args(setup_sdmdata)
 
 test_folder <- "~/modleR_test"
-sdmdata_1sp <- setup_sdmdata(species_name = species[1],
+sdmdata_1sp <- setup_sdmdata(species_name = species[speciesID],
                              occurrences = occs,
                              predictors = example_vars,
                              models_dir = test_folder,
@@ -44,7 +57,7 @@ sdmdata_1sp <- setup_sdmdata(species_name = species[1],
 library(rJava)
 
 #Java musste auf meinem Computer neu installiert werden (Danach ging aber alles)
-sp_maxent <- do_any(species_name = species[1],
+sp_maxent <- do_any(species_name = species[speciesID],
                     algorithm = "maxent",
                     predictors = example_vars,
                     models_dir = test_folder,
@@ -56,7 +69,7 @@ sp_maxent <- do_any(species_name = species[1],
 
 sp_maxent
 
-many <- do_many(species_name = species[1],
+many <- do_many(species_name = species[speciesID],
                 predictors = example_vars,
                 models_dir = test_folder,
                 png_partitions = TRUE,
@@ -74,7 +87,7 @@ many <- do_many(species_name = species[1],
                 brt = TRUE,
                 equalize = TRUE)
 
-final_model(species_name = species[1],
+final_model(species_name = species[speciesID],
             algorithms = NULL, #if null it will take all the algorithms in disk
             models_dir = test_folder,
             which_models = c("raw_mean",
@@ -84,7 +97,7 @@ final_model(species_name = species[1],
             uncertainty = TRUE,
             overwrite = TRUE)
 
-ens <- ensemble_model(species_name = species[1],
+ens <- ensemble_model(species_name = species[speciesID],
                       occurrences = occs,
                       performance_metric = "pROC",
                       which_ensemble = c("average",
@@ -101,4 +114,4 @@ ens <- ensemble_model(species_name = species[1],
 
 
 plot(ens)
-
+rdt2repr::endprov()
