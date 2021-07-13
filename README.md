@@ -7,7 +7,7 @@ Zenodo, a CERN service, is an open dependable home for the long-tail of science,
 Source: https://github.com/zenodo/zenodo
 
 The DOI for our Project:
-[![DOI](https://zenodo.org/badge/374119276.svg)](https://zenodo.org/badge/latestdoi/374119276)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5095387.svg)](https://doi.org/10.5281/zenodo.5095387)
 
 ## Installation
 You have to install packages in R and you have to install Java and Rtools on your device before you start the project. Go to the [Install.R](https://github.com/FlorianZe92/Project_MoSD/blob/main/Install.R) file to see a guideline for the installation of the R packages.
